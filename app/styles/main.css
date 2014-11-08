@@ -7,19 +7,61 @@
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+
 
 /* my profile section */
-.MyProfile{
- background: url(../images/nature.jpg) no-repeat center center fixed; 
+.MyPersonalData{
+ background: url(../images/nature.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 300px;
+  margin-top: -30px;
+}
+#data {
+    background: none no-repeat scroll 0 0 / 80px 60px #ffffff;
+    border: 10px none;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    left: 243px;
+    padding: 24px;
+    position: relative;
+    top: 80px;
+    font: 18px Arial, Helvetica, sans-serif;
+
+}
+
+/* my profile section */
+.MyDegree{
+ background: #A3D1FF no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+
+
+/* my profile section */
+.MyProgrammingLanguages{
+ background: #8AE68A no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+
+/* my profile section */
+.MySkills{
+ background: #0066CC no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
 }
 
 

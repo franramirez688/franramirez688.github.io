@@ -35,7 +35,7 @@
 
 /* my profile section */
 .MyDegree{
- background: #A3D1FF no-repeat center center fixed; 
+ background: #FFFFFF no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,15 +43,31 @@
   height: 300px;
 }
 
+#upm_image{
+  
+}
 
 /* my profile section */
 .MyProgrammingLanguages{
- background: #8AE68A no-repeat center center fixed; 
+ background: #FFFFFF no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 300px;
+}
+
+#cplusplus_image {
+    height: 58%;
+    width: 13%;
+}
+#python_image {
+    height: 53%;
+    width: 13%;
+}
+#html_css_js_image {
+    height: 48%;
+    width: 15%;
 }
 
 /* my profile section */

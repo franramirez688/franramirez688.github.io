@@ -1,8 +1,0 @@
-{
-  "name": "franramirez688-github-io",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "~3.2.0",
-    "d3": "3.4.13"
-  }
-}

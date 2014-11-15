@@ -51,7 +51,10 @@ body{
   height: 500px;
 }
 .programming_images{
-  padding: 5px;
+    padding: 5px;
+    position: relative;
+    top: 21%;
+    left: 23%;
 }
 
 #cplusplus_image {

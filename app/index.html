@@ -29,8 +29,8 @@
       <div class="header">
           <ul class="nav nav-pills pull-right">
             <li class="active"><a href="#">About me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Experience</a></li>
+            <li><a href="#my_skills">Skills</a></li>
+            <li><a href="#my_job">Experience</a></li>
           </ul>
           <h3 class="text-muted">Francisco Ramirez de Antón Montoro</h3>
       </div>
@@ -48,18 +48,18 @@
         </div>
       </div>
 
-      <div class="MyProgrammingLanguages">
-        <h2 align="center">SKILLS</h2>
+      <div id="my_skills" class="MyProgrammingLanguages">
+        <h2 align="center">My skills</h2>
         <div class="programming_images">
-          <image id="cplusplus_image" src="../images/cplusplus.jpg" />
-          <image id="python_image" src="../images/python.png" />
-          <image id="html_css_js_image" src="../images/html5_css_js.png"  />
-          <image id="git_image" src="../images/git.png"  />
+          <image id="cplusplus_image" onClick="show_pie_chart()" src="../images/cplusplus.jpg" />
+          <image id="python_image" onClick="" src="../images/python.png" />
+          <image id="html_css_js_image" onClick="" src="../images/html5_css_js.png"  />
+          <image id="git_image" onClick="" src="../images/git.png"  />
         </div>
         <div class="pie_chart_d3js"></div>
       </div>
 
-      <div class="MyJob">
+      <div id="my_job" class="MyJob">
           <p>Biicode Innovation S.L.</p>
           <p>Software Engineer</p>
           <p>Desarrollo de software en lenguaje Python, C/C++ y CMake. Tareas de testing en Python. Tareas control de calidad, mejora del producto y documentación técnica. Uso de hardware y software específico como Raspberry Pi y Arduino. Trabajo en equipo bajo CVS con Git y código alojado en GitLab</p>
@@ -83,6 +83,7 @@
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/d3/d3.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Professional Profile</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <!-- ***************** START WEB PAGE BODY ********************* -->
+
+    <div class="MyContainer">
+      
+      <div class="header">
+          <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="#">About me</a></li>
+            <li><a href="#my_skills">Skills</a></li>
+            <li><a href="#my_job">Experience</a></li>
+          </ul>
+          <h3 class="text-muted">Francisco Ramirez de Antón Montoro</h3>
+      </div>
+
+      <div class="MyPersonalData">
+        <h2 align="center">ABOUT ME</h2>
+        <div id="data">
+          <p><span class="glyphicon glyphicon-gift"></span>   6 de Septiembre de 1988, Toledo</p>
+          <p><span class="glyphicon glyphicon-home"></span>   Ocaña, Toledo </p>
+          <p><span class="glyphicon glyphicon-envelope"></span>   francisco.ramirezdeanton@gmail.com</p>
+          <p><span class="glyphicon glyphicon-user"></span>   Ingeniero Técnico Electrónico Industrial </p>
+          <p>Especialidad: Automatización Industrial</p>
+          <image id="upm_image" src="../images/upm.png" />
+          <image id="etsidi_image" src="../images/etsidi.jpg" />
+        </div>
+      </div>
+
+      <div id="my_skills" class="MyProgrammingLanguages">
+        <h2 align="center">My skills</h2>
+        <div class="programming_images">
+          <image id="cplusplus_image" onClick="show_pie_chart()" src="../images/cplusplus.jpg" />
+          <image id="python_image" onClick="" src="../images/python.png" />
+          <image id="html_css_js_image" onClick="" src="../images/html5_css_js.png"  />
+          <image id="git_image" onClick="" src="../images/git.png"  />
+        </div>
+        <div class="pie_chart_d3js"></div>
+      </div>
+
+      <div id="my_job" class="MyJob">
+          <p>Biicode Innovation S.L.</p>
+          <p>Software Engineer</p>
+          <p>Desarrollo de software en lenguaje Python, C/C++ y CMake. Tareas de testing en Python. Tareas control de calidad, mejora del producto y documentación técnica. Uso de hardware y software específico como Raspberry Pi y Arduino. Trabajo en equipo bajo CVS con Git y código alojado en GitLab</p>
+      </div>
+
+      <div class="MySkills">
+          <p>6 de Septiembre de 1988, Toledo  </p>
+          <p>Dirección: C/ Miguel Hernández nº19 (Ocaña)   </p>
+          <p>francisco.ramirezdeanton@gmail.com  </p>
+      </div>
+
+      <div class="footer">
+        <p><span class="glyphicon glyphicon-user"></span>  Francisco Ramirez Profile</p>
+      </div>
+
+    </div>
+
+
+    <!-- ***************** END WEB PAGE BODY ********************* -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+        <!-- build:js(.) scripts/plugins.js -->
+        <script src="bower_components/bootstrap/js/affix.js"></script>
+        <script src="bower_components/bootstrap/js/alert.js"></script>
+        <script src="bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/bootstrap/js/modal.js"></script>
+        <script src="bower_components/bootstrap/js/transition.js"></script>
+        <script src="bower_components/bootstrap/js/button.js"></script>
+        <script src="bower_components/bootstrap/js/popover.js"></script>
+        <script src="bower_components/bootstrap/js/carousel.js"></script>
+        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/bootstrap/js/collapse.js"></script>
+        <script src="bower_components/bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

@@ -109,9 +109,27 @@ body{
   float: right;
 }
 
+#biicode_tool_images{
+  width: 100%;
+}
+
 #github_image{
+  width: 23%;
+}
+
+#read_the_docs_image{
   width: 10%;
-  float: bottom;
+}
+#rpi_image{
+  width: 12%;
+  position: relative;
+  left: 1%
+}
+
+#arduino_image{
+  width: 10%;
+    position: relative;
+  left: 1%
 }
 
 #bii_title{

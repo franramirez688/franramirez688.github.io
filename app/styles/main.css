@@ -25,15 +25,15 @@ body{
 }
 
 #data {
-    background: none no-repeat scroll 0 0 / 80px 60px #ffffff;
+    background: none no-repeat #ffffff;
     border: 10px none;
     border-radius: 15px;
     float: left;
-    left: 15%;
+    left: 10%;
     padding: 1%;
     position: relative;
     top: 10%;
-    width: 25%;
+    width: 50%;
     display: inline-block;
 }
 
@@ -59,27 +59,26 @@ body{
     padding: 5px;
     position: relative;
     top: 21%;
-    left: 23%;
+    width: 100%;
 }
 
 #cplusplus_image {
     height: 58%;
-    width: 13%;
+    width: 23%;
+    left: 5%;
 }
 #python_image {
     height: 53%;
-    width: 13%;
+    width: 24%;
 }
 #html_css_js_image {
     height: 48%;
-    width: 15%;
+    width: 24%;
 }
-
 #git_image {
     height: 48%;
-    width: 12%;
+    width: 19%;
 }
-
 
 .MyJob{
  background: #F3E2A9 no-repeat center center fixed; 
@@ -90,13 +89,12 @@ body{
   height: 500px;
 }
 
-
 #my_data_job {
     background: none no-repeat scroll 0 0 / 80px 60px #ffffff;
     border: 10px none;
     border-radius: 15px;
     float: center;
-    left: 243px;
+    left: 10%;
     padding: 24px;
     position: relative;
     width: 80%;

@@ -9,6 +9,10 @@ body{
   font: 18px Arial,Helvetica,sans-serif;
 }
 
+#header_titles{
+  position: 10%;
+}
+
 /* about me section */
 .MyPersonalData{
  background: url(../images/nature.jpg) no-repeat center center; 
@@ -16,22 +20,23 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 500px;
-  margin-top: -30px;
+  height: 600px;
+  margin-top: -40px;
 }
 
 #data {
-    background: none no-repeat scroll 0 0 / 80px 60px #ffffff;
+    background: none no-repeat #ffffff;
     border: 10px none;
     border-radius: 15px;
     float: left;
-    left: 243px;
-    padding: 24px;
+    left: 10%;
+    padding: 1%;
     position: relative;
-    top: 80px;
-    width: 395px;
+    top: 10%;
+    width: 50%;
     display: inline-block;
 }
+
 #upm_image {
     height: 39%;
     width: 36%;
@@ -54,26 +59,81 @@ body{
     padding: 5px;
     position: relative;
     top: 21%;
-    left: 23%;
+    width: 100%;
 }
 
 #cplusplus_image {
     height: 58%;
-    width: 13%;
+    width: 23%;
+    left: 5%;
 }
 #python_image {
     height: 53%;
-    width: 13%;
+    width: 24%;
 }
 #html_css_js_image {
     height: 48%;
-    width: 15%;
+    width: 24%;
 }
-
 #git_image {
     height: 48%;
-    width: 12%;
+    width: 19%;
 }
+
+.MyJob{
+ background: #F3E2A9 no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+#my_data_job {
+    background: none no-repeat scroll 0 0 / 80px 60px #ffffff;
+    border: 10px none;
+    border-radius: 15px;
+    float: center;
+    left: 10%;
+    padding: 24px;
+    position: relative;
+    width: 80%;
+    display: inline-block;
+    top: 10%;
+}
+
+#bii_image{
+  width: 40%;
+  float: right;
+}
+
+#biicode_tool_images{
+  width: 100%;
+}
+
+#github_image{
+  width: 23%;
+}
+
+#read_the_docs_image{
+  width: 10%;
+}
+#rpi_image{
+  width: 12%;
+  position: relative;
+  left: 1%
+}
+
+#arduino_image{
+  width: 10%;
+    position: relative;
+  left: 1%
+}
+
+#bii_title{
+
+}
+
 
 /* D3.js styles */
 svg {

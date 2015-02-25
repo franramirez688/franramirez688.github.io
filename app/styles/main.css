@@ -1,3 +1,9 @@
+/* ********************CONTAINER CLASS ********************************/
+
+.My_container {
+  display: inline-block;
+ }
+
 /* ************************ ABOUT ME SECTION ************************ */
 
 .MyPersonalData{

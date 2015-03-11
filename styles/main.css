@@ -48,34 +48,45 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 700px;
+  height: 1400px;
 }
 .programming_images{
+    height: 80%;
     padding: 5px;
     position: relative;
-    top: 21%;
-    width: 70%;
+    top: 3%;
+    width: 100%;
+    left: 17%;
 }
-
 #cplusplus_image {
-    height: 58%;
-    width: 23%;
-    left: 5%;
+    height: 37%;
+    width: 13%;
 }
 #python_image {
-    height: 53%;
-    width: 24%;
+    height: 38%;
+    width: 16%;
 }
 #html_css_js_image {
-    height: 48%;
-    width: 24%;
+    height: 38%;
+    width: 18%;
 }
 #git_image {
-    height: 48%;
-    width: 19%;
+    height: 30%;
+    width: 11%;
 }
 
 /* *********************************************************************** */
+
+/* ************************ D3.js styles ************************ */
+
+#pieChart {
+    bottom: 40%;
+    position: relative;
+    left: 34%;
+}
+
+/* *********************************************************************** */
+
 
 /* ************************ MY EXPERIENCE SECTION ************************ */
 
@@ -135,25 +146,6 @@
 
 /* *********************************************************************** */
 
-/* ************************ D3.js styles ************************ */
-
-svg {
-  width: 100%;
-  height: 100%;
-}
-
-path.slice{
-  stroke-width:2px;
-}
-
-polyline{
-  opacity: .3;
-  stroke: black;
-  stroke-width: 2px;
-  fill: none;
-}
-/* *********************************************************************** */
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -162,11 +154,17 @@ polyline{
 }
 
 body{
-  font: 18px Arial,Helvetica,sans-serif;
+  font: 25px 'Montez',Helvetica,sans-serif;
 }
 
 #header_titles{
+  font-size: 45px;
+  padding-top: 2%;
   
+}
+
+h3{
+  font-size: 30px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
